@@ -13,3 +13,5 @@ let x,y;
     imageDiv.style.left=x + 'px';
     imageDiv.style.top=y + 'px';
 }
+
+
