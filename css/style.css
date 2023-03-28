@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 } 
 
 .mainPanal{
@@ -10,7 +11,15 @@ body{
     background-position: bottom;
     width: 100%;
     height: 100vh;
+    
 }
+.duckImageDiv img{
+width: 100px;
+position: absolute;
+top:65%;
+
+}
+
 
 #aimImage{
     height: 35px;
@@ -18,4 +27,26 @@ body{
     position: absolute;
     top: 35px;
     left: 35px;
+    
+}
+
+#bird1{
+    animation: b1 5s infinite;
+    right:100%
+}
+
+@keyframes b1{
+    0%{
+        top:65%;
+        right:10%
+    }
+    25%{
+        top: 30%;
+    }
+    75%{
+        top:10%;
+    }
+    100%{
+        top:50%
+    }
 }
