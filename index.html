@@ -8,12 +8,14 @@
     <!-- Set the Background Image -->
     <div class="mainPanal" onmousemove="moveAimImage(event)">
         <!--Set the aim Image  -->
-        <div class="aimImageContainer">
+        <!-- <div class="aimImageContainer">
             <img  id="aimImage" src="img/aim.png">
-        </div>
+        </div> -->
         <div class="duckImageDiv">
-            <img id="bird1" src="img/bird1.gif">
-            <img src="img/bird2.gif">
+            <img id="bird1" src="img/bird1.gif" onclick="hideBird(this.id)">
+            <img id="bird2" src="img/bird2.gif" onclick="hideBird(this.id)">
+            <img id="bird3" src="img/bird3.gif" onclick="hideBird(this.id)">
+            <img id="bird4" src="img/bird2.gif" onclick="hideBird(this.id)">
         </div>
     </div>
     <div id="coordnate"></div>

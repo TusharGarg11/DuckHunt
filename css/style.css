@@ -2,8 +2,8 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    cursor: crosshair;
 } 
-
 .mainPanal{
     background: url(../img/stage.png);
     background-size: cover;
@@ -17,7 +17,6 @@ body{
 width: 100px;
 position: absolute;
 top:65%;
-
 }
 
 
@@ -45,6 +44,54 @@ top:65%;
     }
     75%{
         top:10%;
+    }
+    100%{
+        top:50%
+    }
+}
+
+#bird2{
+    animation: b2 5s infinite;
+    left:100%
+
+}
+
+@keyframes b2{
+    0%{
+        top: 65px;
+        left: 10%;
+    }
+}
+
+#bird3{
+    animation: b3 10s infinite;
+    left:100%
+
+}
+
+@keyframes b3 {
+    0%{
+        top:65%;
+        left: -10%;
+    }
+}
+
+#bird4{
+    animation: b4 5s infinite;
+    left:100%
+
+}
+
+@keyframes b4{
+    0%{
+        top: 65%;
+        left: 10%;
+    }
+    25%{
+        top: 30%;
+    }
+    75%{
+        top:90%;
     }
     100%{
         top:50%

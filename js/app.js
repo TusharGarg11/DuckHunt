@@ -15,3 +15,10 @@ let x,y;
 }
 
 
+function hideBird(clicked_id){
+    document.getElementById(clicked_id).style.display="none";
+    let x = Math.floor((Math.random() * 10) + 1)
+    setTimeout(()=>{
+        document.getElementById(clicked_id).style.display="block"; 
+    },x*1000);
+}
